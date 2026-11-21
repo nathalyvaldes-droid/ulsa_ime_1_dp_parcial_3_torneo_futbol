@@ -51,7 +51,7 @@ int opcion;
         std::cout<< "8. Mostrar matriz de enfrentamientos \n";
         std::cout<< "9.Salir \n";
         std::cout<< "Ingresa tu opción: ";
-     std::cin>> opcion;
+     std::cin>> opcion;}
 
     switch(opcion){
         case 1:
@@ -76,7 +76,6 @@ int opcion;
             } while (opcion != 9);
     
    return 0;
-
 }
    
   
