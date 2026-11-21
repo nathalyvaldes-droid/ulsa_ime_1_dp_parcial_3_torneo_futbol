@@ -20,9 +20,10 @@ inline std::string aMinusculas(std::string texto) {
     return texto;
 }
 
-inline const Equipo* buscarEquipo (const Equipo* equipos, int totalEquipos, const std::string buscando = aMinusculas(nombre)); 
-
-
+const Equipo* buscarEquipo(
+    const Equipo* equipos,
+    int totalEquipos,
+    const std::string& buscando);
 void imprimirConsulta() {
     std::string nombre = leerCadena("Nombre del equipo: ");
 

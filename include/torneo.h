@@ -47,10 +47,10 @@ struct Equipo{
    int PTS = 0;
 };
 
+
 struct Partido {
    std::string local;
    std::string visitante;
-
-}
+};
 // ---------- Funciones comunes (equipo) ----------
 // Escriban aqui las funciones que varios modulos comparten

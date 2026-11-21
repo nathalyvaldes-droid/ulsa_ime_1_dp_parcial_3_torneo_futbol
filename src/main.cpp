@@ -22,62 +22,59 @@
 #include "consultas.h"
 #include "escenario_prueba.h"
 
-int main() {
+int main(){
     // TODO: declaren aqui los datos del torneo.
     //       No usen variables globales.
-Equipo equipos [MAX_EQUIPOS];
-int totalEquipos = 0;
+    Equipo equipos[MAX_EQUIPOS];
+    int totalEquipos = 0;
 
-Partido partidos [TOTAL_PARTIDOS];
-int totalPartidos = 0;
+    Partido partidos[TOTAL_PARTIDOS];
+    int totalPartidos = 0;
 
     std::string nombre;
-    std::cout<< "Ingresa tu nombre: ";
-    std::cin>> nombre;
-std::cout<<"Hola \n"<<nombre ;
-std::cout<<"Bienvenido al Sistema de Gestion del Torneo de Futbol \n";
+    std::cout << "Ingresa tu nombre: ";
+    std::cin >> nombre;
+    std::cout << "Hola " << nombre << "\n";
+    std::cout << "Bienvenido al Sistema de Gestion del Torneo de Futbol\n";
 
-while(true){
+    int opcion = 0;
+    while (opcion != 9) {
+        std::cout << "\nSelecciona una opcion:\n";
+        std::cout << "1. Registrar Equipo\n";
+        std::cout << "2. Mostrar equipos\n";
+        std::cout << "3. Simular torneo\n";
+        std::cout << "4. Mostrar resultados\n";
+        std::cout << "5. Mostrar tabla de posiciones\n";
+        std::cout << "6. Mostrar Campeon\n";
+        std::cout << "7. Consultar Equipo\n";
+        std::cout << "8. Mostrar matriz de enfrentamientos\n";
+        std::cout << "9. Salir\n";
+        std::cout << "Ingresa tu opcion: ";
+        std::cin >> opcion;
 
-int opcion;
-    std::cout<<"Selecciona una opcion: ";
-        std::cout<< "1.Registrar Equipo \n";
-        std::cout<< "2.Mostrar equipos \n";
-        std::cout<< "3.Simular torneo \n";
-        std::cout<< "4.Mostrar resultados \n";
-        std::cout<< "5.Mostrar tabla de posiciones \n";
-        std::cout<< "6.Mostrar Campeon \n";
-        std::cout<< "7.Consultar Equipo \n";
-        std::cout<< "8. Mostrar matriz de enfrentamientos \n";
-        std::cout<< "9.Salir \n";
-        std::cout<< "Ingresa tu opción: ";
-     std::cin>> opcion;}
-
-    switch(opcion){
-        case 1:
-           std::cout<< "Ingrese nombre del equipo a registrar: ";
-
-            break;
-        case 2:
-            std::cout<< "Equipos Registrados: ";
-            void mostrarEquipos (const std::string Equipos[], int totalEquipos );
-            std::cout<< "---Equipos Registrados--- \n" ;
-            break;
-        case 3:
-            std::cout<< "Simulación de torneo ";
-            break;
-        case 9:
+        switch (opcion) {
+            case 1:
+                std::cout << "Ingrese nombre del equipo a registrar: ";
+                break;
+            case 2:
+                std::cout << "Equipos Registrados:\n";
+                void mostrarEquipos (const std::string Equipos[], int totalEquipos );
+                std::cout<< "---Equipos Registrados--- \n" ;
+                break;
+            case 3:
+                std::cout << "Simulacion de torneo\n";
+                break;
+            case 9:
                 std::cout << "Saliendo del sistema...\n";
                 break;
             default:
                 std::cout << "Opcion no valida. Intenta de nuevo.\n";
                 break;
-        
-            } while (opcion != 9);
-    
-   return 0;
+        }
+    }
+
+    return 0;
 }
-   
   
 
     // TODO: menu que se repite hasta elegir "Salir".
@@ -101,4 +98,4 @@ int opcion;
     // Paso 11: ejecutar de nuevo el programa en modo aleatorio y mostrar
     //          resultados, tabla y campeon.
 
- 
+
