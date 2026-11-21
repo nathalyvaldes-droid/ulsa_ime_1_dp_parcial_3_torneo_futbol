@@ -6,20 +6,27 @@
 
 | Módulo | Matrícula | Nombre | Usuario de GitHub | Tema |
 | --- | --- | --- | --- | --- |
-| 1 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Registro de equipos |
-| 2 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Simulación de partidos |
-| 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Tabla de posiciones |
-| 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Clasificación y campeón |
-| 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Consultas |
-| 6 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Matriz de enfrentamientos |
+| 1 | [Inserta aquí tu re] | [] | [Lucia Tavares] | Registro de equipos |
+| 2 | [Inserta aquí tu respuesta] | [26162] | [Nathaly Valdes] | Simulación de partidos |
+| 3 | [Inserta aquí tu respuesta] | [26146] | [Oliver López] | Tabla de posiciones |
+| 4 | [Inserta aquí tu respuesta] | [26078] | [Gilberto Cantú] | Clasificación y campeón |
+| 5 | [Inserta aquí tu respuesta] | [26082] | [Marian Romo] | Consultas |
+| 6 | [Inserta aquí tu respuesta] | [26164] | [Maximiliano Muñoz] | Matriz de enfrentamientos |
 
 > **Nota:** en los equipos de 5 integrantes, todos contribuyen al módulo 6. En esa fila escriban "Todo el equipo".
 
 ## 2. Opciones del menú
 
 Escriban las opciones del menú en el orden en que aparecen en el programa.
-
-[Inserta aquí tu respuesta]
+1. Registrar Equipo
+2. Mostrar equipos
+3. Simular torneo
+4. Mostrar resultados
+5. Mostrar tabla de posiciones
+6. Mostrar Campeon
+7. Consultar Equipo
+8. Mostrar matriz de enfrentamientos
+9. Salir
 
 ## 3. Cómo compilar y ejecutar
 
