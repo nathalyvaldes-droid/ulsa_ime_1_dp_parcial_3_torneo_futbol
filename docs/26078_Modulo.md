@@ -1,9 +1,9 @@
 ## 1. Autor
 
-**Nombre:** [Inserta aquí tu respuesta]  
-**Matrícula:** [Inserta aquí tu respuesta]  
-**Módulo:** [Inserta aquí tu respuesta]  
-**Archivo de código:** [Inserta aquí tu respuesta]
+**Nombre:** [Gilberto Cantú]  
+**Matrícula:** [26078]  
+**Módulo:** [Clasificacion y campeón]  
+**Archivo de código:** [clasificacion_campeon.h]
 
 ## 2. Propósito
 
