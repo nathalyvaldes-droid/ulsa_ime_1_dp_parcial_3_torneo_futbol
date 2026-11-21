@@ -6,7 +6,7 @@
 
 | Módulo | Matrícula | Nombre | Usuario de GitHub | Tema |
 | --- | --- | --- | --- | --- |
-| 1 | [Inserta aquí tu re] | [] | [Lucia Tavares] | Registro de equipos |
+| 1 | [Inserta aquí tu respuesta] | [26110] | [Lucia Tavares] | Registro de equipos |
 | 2 | [Inserta aquí tu respuesta] | [26162] | [Nathaly Valdes] | Simulación de partidos |
 | 3 | [Inserta aquí tu respuesta] | [26146] | [Oliver López] | Tabla de posiciones |
 | 4 | [Inserta aquí tu respuesta] | [26078] | [Gilberto Cantú] | Clasificación y campeón |
