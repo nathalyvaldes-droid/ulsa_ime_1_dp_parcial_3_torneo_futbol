@@ -15,7 +15,7 @@
 #include <iomanip>
 
 #include "utilerias.h"
-#include "torneo.h¨
+#include "torneo.h"
 
 // TODO: incluyan aqui el archivo .h de cada modulo.
 #include "clasificacion_campeon.h"
